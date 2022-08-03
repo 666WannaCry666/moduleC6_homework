@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    border-style: none;
+    background-color: #3964f5;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all .5s ease-out 0.1s;
+}
+
+#button:hover {
+    transform: scale(1.1);
+}
+
+#icon {
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}
